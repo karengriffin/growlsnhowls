@@ -1,0 +1,31 @@
+/* import fonts here and add other shit too */
+* {
+  box-sizing: border-box;
+}
+#landing {
+  display: flex;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+#header-nav {
+  display: flex;
+}
+
+#gnh-text-logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+#logo-and-links {
+  display: flex;
+  flex-direction: column;
+}
+
+#left-panel-nav {
+  display: flex;
+  flex-direction: column;
+}
