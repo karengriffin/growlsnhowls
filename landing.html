@@ -17,15 +17,16 @@
     <header>
       <h1 id="gnh-text-logo">Growls N' Howls</h1>
       <nav id="header-nav">
-        <p id="home"><a href="#">HOME</a></p>
-        <p id="line-1">|</p>
-        <p id="settings"><a href="#">SETTINGS</a></p>
-        <p id="line-2">|</p>
-        <p id="logout"><a href="#">LOGOUT</a></p>
+        <p class="header-nav"><a href="#">HOME</a></p>
+        <p class="header-nav-line">|</p>
+        <p class="header-nav"><a href="#">SETTINGS</a></p>
+        <p class="header-nav-line">|</p>
+        <p class="header-nav"><a href="#">LOGOUT</a></p>
       </nav>
     </header>
     <main id="landing">
-      <div id="left-panel">
+      <!-- left panel -->
+      <section id="left-panel">
         <div id="logo-and-links">
           <img
             id="left-panel-logo"
@@ -38,16 +39,38 @@
           <h3 id="pets-link"><a href="#">PETS</a></h3>
         </div>
         <div id="left-panel-nav">
-          <p class="left-panel-links"><a href="#">Terms of Service</a></p>
-          <p class="left-panel-links"><a href="#">Privacy Policy</a></p>
-          <p class="left-panel-links"><a href="#">Cookie Policy</a></p>
-          <p class="left-panel-links"><a href="#">Accessibility</a></p>
-          <p class="left-panel-links"><a href="#">Ads Info</a></p>
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Ads Info</a>
           <p>© 2022 Growls N Howls, Inc</p>
         </div>
-      </div>
-      <div id="hero-container"></div>
-      <div id="ad-space"></div>
+      </section>
+      <!-- hero container -->
+      <section id="hero-container">
+        <div id="create-post-area">
+          <div id="create-logo"></div>
+          <div id="typing-area"></div>
+        </div>
+        <div id="timelime">
+          <div class="friend-post">
+            <img src="" alt="friend pfp" />
+            <div class="post-caption"></div>
+          </div>
+          <div class="friend-post">
+            <img src="" alt="friend pfp" />
+            <div class="post-caption"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ad space -->
+      <section id="ad-space">
+        <img src="images/ad1.png" alt="" />
+        <img src="images/ad2.jpg" alt="" />
+        <img src="images/ad3.jpg" alt="" />
+      </section>
     </main>
   </body>
 </html>

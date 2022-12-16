@@ -1,31 +1,59 @@
 /* import fonts here and add other shit too */
 * {
   box-sizing: border-box;
+  /* padding: 0;
+  margin: 0; */
 }
+
 #landing {
   display: flex;
+  justify-content: space-between;
 }
 
 header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
 }
 
 #header-nav {
   display: flex;
+  justify-items: space-between;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 #gnh-text-logo {
   display: flex;
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 #logo-and-links {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #left-panel-nav {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
+
+#ad-space {
+}
+
+#ad-space img {
+  display: flex;
+  width: 167px;
+  height: 237;
+  justify-content: flex-end;
+}
+
+/* .left-panel-links {
+  display: flex;
+} */
