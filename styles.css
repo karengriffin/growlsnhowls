@@ -1,4 +1,15 @@
 /* import fonts here and add other shit too */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap');
+@font-face {
+  font-family: montserrat-custom;
+  src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: cinzel-custom;
+  src: url(fonts/Cinzel-VariableFont_wght.ttf);
+}
+
 * {
   box-sizing: border-box;
   /* padding: 0;
@@ -29,6 +40,7 @@ header {
 
 #gnh-text-logo {
   display: flex;
+  font-family: cinzel-custom;
   /* flex-grow: 1; */
 }
 
@@ -36,15 +48,15 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: cinzel-custom;
 }
 
 #left-panel-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#ad-space {
+  font-family: montserrat-custom;
+  color: #ffad52;
 }
 
 #ad-space img {
@@ -52,6 +64,10 @@ header {
   width: 167px;
   height: 237;
   justify-content: flex-end;
+}
+
+.login-signup-header {
+  font-family: cinzel-custom;
 }
 
 /* .left-panel-links {

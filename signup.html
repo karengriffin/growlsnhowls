@@ -9,10 +9,113 @@
       content="width=device-width, initial-
        scale=1.0"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Growls N' Howls</title>
   </head>
   <!-- Body Section-->
   <body>
-    <h1>Welcome to Growls N' Howls Doggie Social Network!</h1>
+    <header>
+      <h1 class="login-signup-header">
+        Welcome to Growls N' Howls <br />
+        Doggie Social Network!
+      </h1>
+    </header>
+    <main id="signup-content">
+      <form action="#" id="signup-form">
+        <div>
+          <label for="name">First name:</label>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="Your name"
+            required
+          />
+        </div>
+        <div>
+          <label for="lastname">[OWNER'S] Last name:</label>
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Enter last name"
+          />
+        </div>
+        <div>
+          <label for="age">Age:</label>
+          <input type="number" name="age" id="age" min="1" max="99" />
+        </div>
+        <div>
+          <label for="species">Species:</label>
+          <!-- <input
+            type="text"
+            name="species"
+            id="species"
+            placeholder="Enter your species:"
+          /> -->
+          <select id="species" name="species" required>
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="bird">Bird</option>
+              <option value="fish">Fish</option>
+              <option value="hamster">Hamster</option>
+              <option value="gerbil">Gerbil</option>
+              <option value="rabbit">Rabbit</option>
+            </select>
+            <div>
+        </div>
+        <div>
+          <label for="growlmail">Growlmail address:</label>
+          <input
+            type="email"
+            name="growlmail"
+            id="growlmail"
+            placeholder="Enter growlmail address:"
+            required
+          />
+        </div>
+        <div>
+          <label>
+            Password
+            <input
+              type="password"
+              name="password"
+              placeholder="Create
+            password"
+              required
+            />
+          </label>
+          <label>
+            Confirm Password
+            <input
+              type="password"
+              name="password-confirmed"
+              placeholder="Reenter
+            password"
+              required
+            />
+          </label>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer id="login-signup-footer">
+      <nav>
+        <p id="login-signup-footer-nav">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Ads Info</a>
+          © 2022 Growls N Howls, Inc
+        </p>
+      </nav>
+    </footer>
+
   </body>
 </html>
