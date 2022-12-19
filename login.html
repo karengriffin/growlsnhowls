@@ -9,10 +9,61 @@
       content="width=device-width, initial-
        scale=1.0"
     />
-    <title>Growls N' Howls - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Growls N' Howls</title>
   </head>
   <!-- Body Section-->
-  <body>
-    <h1>Welcome to Growls N' Howls Doggie Social Network!</h1>
+  <body id="signup-body">
+    <header>
+      <h1 class="login-signup-header">Welcome back!</h1>
+    </header>
+    <main id="signup-content">
+      <form action="#" id="signup-form">
+        <div>
+          <label for="growlmail">WOOFMAIL ADDRESS:</label>
+          <input
+            type="email"
+            name="woofmail"
+            id="woofmail"
+            placeholder="Enter woofmail address:"
+            required
+          />
+        </div>
+        <div>
+          <label>
+            PASSWORD
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter password"
+              required
+            />
+          </label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer id="login-signup-footer">
+      <nav>
+        <p id="login-signup-footer-nav">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Ads Info</a>
+          © 2022 Growls N Howls, Inc
+        </p>
+      </nav>
+    </footer>
   </body>
 </html>
