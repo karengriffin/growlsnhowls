@@ -23,7 +23,7 @@
     <title>Growls N' Howls - Home Page</title>
   </head>
   <!-- Body Section-->
-  <body>
+  <body id="landing-body">
     <header>
       <h1 id="gnh-text-logo">Growls N' Howls</h1>
       <nav id="header-nav">
@@ -45,24 +45,38 @@
             width="200"
             height="200"
           />
-          <h3 id="posts-link"><a href="#">POSTS</a></h3>
-          <h3 id="pets-link"><a href="#">PETS</a></h3>
-        </div>
-        <div id="left-panel-nav">
-          <a href="#">Terms of Service</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Cookie Policy</a>
-          <a href="#">Accessibility</a>
-          <a href="#">Ads Info</a>
-          <p>© 2022 Growls N Howls, Inc</p>
+          <p id="posts-link"><a href="#">My Posts</a></p>
+          <p id="pets-link"><a href="#">My Pets</a></p>
+          <p id="edit-profile-link"><a href="#">Edit Profile</a></p>
+          <p id="edit-photos-link"><a href="#">Edit Photos</a></p>
+          <p id="edit-posts-link"><a href="#">Edit Posts</a></p>
         </div>
       </section>
       <!-- hero container -->
       <section id="hero-container">
-        <div id="create-post-area">
-          <div id="create-logo"></div>
-          <div id="typing-area"></div>
+        <!-- POST CREATION AREA -->
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="#" />
+            <div>
+              <p>Prince Cassius</p>
+              <small>Public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              rows="5"
+              placeholder="Howlllll ya feeling today, Prince?"
+            ></textarea>
+            <div class="add-post-links">
+              <a href="#"><img src="images/live-video.png" /> Live Video</a>
+              <a href="#"><img src="images/photo.png" /> Photo/Video</a>
+              <a href="#"><img src="images/feeling.png" /> Feeling/Activity</a>
+            </div>
+          </div>
         </div>
+
         <div id="timelime">
           <div class="friend-post">
             <img src="" alt="friend pfp" />
@@ -82,5 +96,15 @@
         <img src="images/ad3.jpg" alt="" />
       </section>
     </main>
+    <footer id="landing-footer">
+      <p id="landing-footer-links">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Ads Info</a>
+        © 2022 Growls N Howls, Inc
+      </p>
+    </footer>
   </body>
 </html>
