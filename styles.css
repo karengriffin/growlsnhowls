@@ -18,8 +18,14 @@
 
 #landing {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #fbf0eb;
+}
+
+#hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #signup-content {
@@ -82,9 +88,10 @@ header {
 }
 
 #left-panel {
-  width: 50%;
+  width: 20%;
   background: rgba(255, 173, 82, 0.19);
-  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
   border-radius: 15px;
 }
 
@@ -105,9 +112,10 @@ header {
 #ad-space {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 20%;
   background: rgba(255, 173, 82, 0.19);
-  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
   align-items: center;
   border-radius: 15px;
 }
@@ -146,13 +154,13 @@ a {
 /* post create */
 
 .write-post-container {
+  /* align-self: center; */
   width: 100%;
   position: relative;
   background: rgba(255, 173, 82, 0.19);
   border-radius: 3px;
   padding: 20px;
   border-radius: 15px;
-  align-self: baseline;
   /* border: 1px solid #ffad52; */
 
   color: #626262;
@@ -202,4 +210,67 @@ a {
 .add-post-links a img {
   width: 20px;
   margin-right: 10px;
+}
+
+/* timeline posts */
+
+.post-container {
+  width: 100%;
+  background: var(--bg-color);
+  border-radius: 6px;
+  padding: 20px;
+  color: #626262;
+  margin: 20px 0;
+}
+
+.user-profile span {
+  font-size: 13px;
+  color: #9a9a9a;
+}
+
+.post-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-row a {
+  color: #9a9a9a;
+}
+
+.post-text {
+  color: #9a9a9a;
+  margin: 15px 0;
+  font-size: 15px;
+}
+.post-text span {
+  color: #626262;
+  font-weight: 500;
+}
+.post-text a {
+  color: #1876f2;
+  text-decoration: none;
+}
+.post-img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.activity-icons div img {
+  width: 18px;
+  margin-right: 10px;
+}
+.activity-icons div {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.post-profile-icon {
+  display: flex;
+  align-items: center;
+}
+.post-profile-icon img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
 }
